@@ -21,7 +21,7 @@ function currentLine(line) {
     var name = line[i];
     var string = i+1 + ". " + name + ", ";
     str += string;
-    var newStr = str.slice(0, str.length-1)
+    var newStr = str.slice(0, str[str.length-1])
   }
 
   return newStr;
