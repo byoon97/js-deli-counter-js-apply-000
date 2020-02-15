@@ -19,7 +19,7 @@ function currentLine(line) {
   var str = "The line is currently: ";
   for (var i = 0; i < line.length; i += 1) {
     var name = line[i];
-    var string = i+1 + ". " + name;
+    var string = i+1 + ". " + name + ", ";
     str += string;
   }
 
