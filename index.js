@@ -20,8 +20,6 @@ function currentLine(line) {
   for (var i = 0; i < line.length; i += 1) {
     var name = line[i];
     var string = i+1 + ". " + name + ", ";
-    str += string;
+    return str += string;
   }
-
-  return str;
 }
