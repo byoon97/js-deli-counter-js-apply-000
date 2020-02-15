@@ -4,7 +4,7 @@ function takeANumber(katzDeliLine, person) {
   return string;
 }
 
-function nowServing(katzDeliLine) {
+function nowServing(deliLine) {
   var first = katzDeliLine.shift();
   var string = "Currently serving " + first + " .";
 
