@@ -22,4 +22,6 @@ function currentLine(line) {
     var string = i+1 + ". " + name + ", ";
     str += string;
   }
+
+  return str;
 }
