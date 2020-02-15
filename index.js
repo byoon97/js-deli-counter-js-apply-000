@@ -21,9 +21,6 @@ function currentLine(line) {
     var name = line[i];
     var string = i+1 + ". " + name + ", ";
     str += string;
-    if (i === string[string.length - 1]) {
-      str.pop();
-    }
   }
 
   return str;
